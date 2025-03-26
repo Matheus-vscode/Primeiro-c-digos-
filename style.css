@@ -1,13 +1,62 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
+}
+
+/* Estilizando o corpo */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container do formulário */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+/* Título */
+h2 {
     text-align: center;
-    background-color: #f0f0f0;
+    margin-bottom: 20px;
 }
 
-h1 {
-    color: blue;
+/* Estilizando os inputs */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
 }
 
-p {
-    color: gray;
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
 }
